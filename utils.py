@@ -56,3 +56,4 @@ def convert_nanoJansky_to_mag(flux):
     AB_mag_zp_wrt_nanoJansky = 2.5 * 9 + AB_mag_zp_wrt_Jansky
 
     return -2.5 * np.log10(flux) + AB_mag_zp_wrt_nanoJansky
+
